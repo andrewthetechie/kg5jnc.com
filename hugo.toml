@@ -1,0 +1,181 @@
+baseURL = 'https://kg5jnc.com/'
+languageCode = 'en-us'
+title = 'KG5JNC - Ham Radio'
+theme = "FixIt"
+
+[params]
+  # FixIt 0.2.15 | CHANGED FixIt theme version
+  version = "0.2.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
+  # site description
+  description = "Documentation and info about KG5JNC's Ham radio projects"
+  defaultTheme = "dark"
+  withSiteTitle = true
+
+  [params.author]
+    name = "Andrew KG5JNC"
+    email = "me@kg5jnc.com"
+    link = "https://kg5jnc.com/about"
+    avatar = ""
+
+ [params.search]
+    enable = true
+
+  [params.header]
+    # FixIt 0.2.13 | CHANGED desktop header mode ["sticky", "normal", "auto"]
+    desktopMode = "sticky"
+    # FixIt 0.2.13 | CHANGED mobile header mode ["sticky", "normal", "auto"]
+    mobileMode = "auto"
+
+  [params.breadcrumb]
+    enable = true
+    sticky = false
+    showHome = true
+
+  # Footer config
+  [params.footer]
+    enable = true
+    # FixIt 0.2.17 | CHANGED Custom content (HTML format is supported)
+    # For advanced use, see parameter `params.customFilePath.footer`
+    custom = ""
+    # FixIt 0.2.0 | NEW whether to show copyright info
+    copyright = true
+    # FixIt 0.2.0 | NEW whether to show the author
+    author = true
+    # Site creation year
+    since = 2024
+    # FixIt 0.2.12 | NEW Public network security only in China (HTML format is supported)
+    gov = ""
+    # ICP info only in China (HTML format is supported)
+    icp = ""
+    # license info (HTML format is supported)
+    license = ''
+    # FixIt 0.3.0 | NEW whether to show Hugo and theme info
+    [params.footer.powered]
+      enable = false
+      hugoLogo = true
+      themeLogo = true
+    # FixIt 0.2.17 | CHANGED Site creation time
+    [params.footer.siteTime]
+      enable = false
+
+  [params.social]
+    GitHub = "andrewthetechie"
+    [params.social.Mastodon]
+        id = "@andrewthetechie"
+        prefix = "https://hachyderm.io/"
+        title = "Fediverse"
+    Email = "contact@kg5jnc.com"
+    RSS = true
+
+[menu]
+  [[menu.main]]
+    identifier = "aprs"
+    parent = ""
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "APRS"
+
+    # title will be shown when you hover on this menu link
+    title = "APRS"
+    weight = 1
+  [[menu.main]]
+    identifier = "sdr"
+    parent = ""
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "SDR"
+
+    # title will be shown when you hover on this menu link
+    title = "SDR"
+    weight = 2
+
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    ########## necessary configurations ##########
+    # https://github.com/hugo-fixit/FixIt/issues/43
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    ########## necessary configurations ##########
+    guessSyntax = true
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+# Sitemap config
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+# Permalinks config (https://gohugo.io/content-management/urls#permalinks)
+[Permalinks]
+  # posts = ":year/:month/:filename"
+  posts = ":filename"
+
+# Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
+[privacy]
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
+
+# FixIt 0.2.15 | CHANGED
+[mediaTypes]
+  # Options to make output .md files
+  [mediaTypes."text/markdown"]
+    suffixes = ["md"]
+  # Options to make output .txt files
+  [mediaTypes."text/plain"]
+    suffixes = ["txt"]
+
+[outputFormats]
+  # Options to make output .md files
+  [outputFormats.MarkDown]
+    mediaType = "text/markdown"
+    isPlainText = true
+    isHTML = false
+  # FixIt 0.3.0 | NEW Options to make output /archives/index.html file
+  [outputFormats.archives]
+    path = "archives"
+    baseName = "index"
+    mediaType = "text/html"
+    isPlainText = false
+    isHTML = true
+    permalinkable = true
+
+
+# Options to make hugo output files, the optional values are below:
+# home: ["HTML", "RSS", "JSON", "archives", "offline", "README", "baidu_urls"]
+# page: ["HTML", "MarkDown"]
+# section: ["HTML", "RSS"]
+# taxonomy: ["HTML", "RSS"]
+# term: ["HTML", "RSS"]
+[outputs]
+  home = ["HTML", "RSS", "JSON", "archives", "offline"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML", "RSS"]
