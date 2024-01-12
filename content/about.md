@@ -7,7 +7,7 @@ menu:
     identifier: "about"
     name: "About KG5JNC"
     title: "About KG5JNC"
-    weight: 3
+    weight: 4
 description:
 keywords:
 license:

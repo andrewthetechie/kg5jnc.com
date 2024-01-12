@@ -7,7 +7,7 @@ menu:
     identifier: "Contact"
     name: "Contact Me"
     title: "Contact"
-    weight: 4
+    weight: 5
 description:
 keywords:
 license:
