@@ -10,9 +10,7 @@ menu:
     name: "RTL433 and Home Assistant"
     title: "RTL433 and Home Assistant"
     weight: 1
-description:
-keywords:
-license:
+type: page
 comment: false
 weight: 0
 tags:

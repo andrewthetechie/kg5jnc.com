@@ -4,4 +4,4 @@ This site documents my radio experiments and setup. See the navigation bar for s
 
 I will occasionally blog interesting topics I find related to ham-radio.
 
-# Recent Blog Posts
+# [Recent Blog Posts](/archives)

@@ -11,6 +11,7 @@ menu:
     title: "Mobile Digipeater"
     weight: 2
 description: Describing the fill-in digipeater and igate I run when travelling. 
+type: page
 keywords:
  - aprs
  - digipeater

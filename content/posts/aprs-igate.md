@@ -10,9 +10,7 @@ menu:
     name: "RX-only igate - KG5JNC-10"
     title: "RX-only igate"
     weight: 3
-description:
-keywords:
-license:
+type: page
 comment: false
 weight: 0
 tags:

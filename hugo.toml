@@ -70,28 +70,45 @@ theme = "FixIt"
 [menu]
   [[menu.main]]
     identifier = "aprs"
-    parent = ""
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
     name = "APRS"
-
-    # title will be shown when you hover on this menu link
     title = "APRS"
     weight = 1
+    [menu.main.params]
+      icon = "fa-solid fa-globe"
   [[menu.main]]
     identifier = "sdr"
-    parent = ""
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
     name = "SDR"
-
-    # title will be shown when you hover on this menu link
     title = "SDR"
     weight = 2
+    [menu.main.params]
+      icon = "fa-solid fa-radio"
+  [[menu.main]]
+    identifier = "blog"
+    parent = ""
+    name = "Blog"
+    url = "/archives/"
+    title = "Blog"
+    weight = 3
+    [menu.main.params]
+      icon = "fa-solid fa-blog"
+  [[menu.main]]
+    identifier = "categories"
+    parent = "blog"
+    name = "Categories"
+    url = "/categories/"
+    title = "Categories"
+    weight = 1
+    [menu.main.params]
+      icon = "fa-solid fa-folder-tree"
+  [[menu.main]]
+    identifier = "tags"
+    parent = "blog"
+    name = "Tags"
+    url = "/tags/"
+    title = "Tags"
+    weight = 2
+    [menu.main.params]
+      icon = "fa-solid fa-tags"
 
 
 # Markup related configuration in Hugo
@@ -179,3 +196,9 @@ theme = "FixIt"
   section = ["HTML", "RSS"]
   taxonomy = ["HTML"]
   term = ["HTML", "RSS"]
+
+[[cascade]]
+  type = "post"
+  [cascade._target]
+    kind = "page"
+    path = "content/posts/**"

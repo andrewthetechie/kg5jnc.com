@@ -10,6 +10,7 @@ menu:
     name: "Static Digipeater - KG5JNC-4"
     title: "Static Digipeater"
     weight: 1
+type: page
 description: Describing my static fill-in digipeater running in the shack
 keywords:
  - aprs

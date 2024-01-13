@@ -5,9 +5,11 @@ date: 2024-01-11T22:03:13-06:00
 menu:
   main:
     identifier: "about"
-    name: "About KG5JNC"
+    name: "About"
     title: "About KG5JNC"
     weight: 4
+    params:
+      icon: "fa-regular fa-circle-question"
 description:
 keywords:
 license:

@@ -8,6 +8,8 @@ menu:
     name: "Contact Me"
     title: "Contact"
     weight: 5
+    params:
+      icon: "fa-regular fa-envelope"
 description:
 keywords:
 license:

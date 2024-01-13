@@ -9,6 +9,8 @@ menu:
     name: "My Gear"
     title: "My Gear"
     weight: 3
+    params:
+      icon: "fa-solid fa-gear"
 description: The Ham radio gear I use in my shack
 keywords:
  - gear
