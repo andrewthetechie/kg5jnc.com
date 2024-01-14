@@ -35,8 +35,9 @@ math: false
 lightgallery: false
 repost:
   enable: false
-
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
+
 This page will eventually include info about how I run rtl433 in my home k8s cluster and feed its data into home assistant via MQTT
+
 <!--more-->

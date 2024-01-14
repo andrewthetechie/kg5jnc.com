@@ -13,11 +13,11 @@ menu:
 type: page
 description: Describing my static fill-in digipeater running in the shack
 keywords:
- - aprs
- - digipeater
- - direwolf
- - linux
- - 2m
+  - aprs
+  - digipeater
+  - direwolf
+  - linux
+  - 2m
 comment: false
 weight: 0
 tags:
@@ -44,7 +44,7 @@ repost:
   enable: false
 ---
 
-This page will eventually contain information on the fill-in 2m APRS digipeater I run in my shack. 
+This page will eventually contain information on the fill-in 2m APRS digipeater I run in my shack.
 
 <!--more-->
 

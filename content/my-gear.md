@@ -13,7 +13,7 @@ menu:
       icon: "fa-solid fa-gear"
 description: The Ham radio gear I use in my shack
 keywords:
- - gear
+  - gear
 comment: false
 weight: 0
 tags:
@@ -37,7 +37,6 @@ password:
 message:
 repost:
   enable: false
-
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
@@ -70,4 +69,5 @@ Misc gear I own
 ## Samlex SEC-1235M
 
 ## RTLSDR Blog V4
+
 ### Nooelec Lana LNA

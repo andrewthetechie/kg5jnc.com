@@ -1,5 +1,5 @@
 ---
-title: 'About'
+title: "About"
 subtitle: "About KG5JNC"
 date: 2024-01-11T22:03:13-06:00
 menu:

@@ -41,13 +41,11 @@ message:
 repost:
   enable: false
   url:
-
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
-
-This page will eventually contain information on the RX-only APRS igate I run in my shack. 
+This page will eventually contain information on the RX-only APRS igate I run in my shack.
 
 <!--more-->
 
-Eventually this page will talk about direwolf and rtl_sdrs. 
+Eventually this page will talk about direwolf and rtl_sdrs.

@@ -10,14 +10,14 @@ menu:
     name: "Mobile Digipeater - KG5JNC-3"
     title: "Mobile Digipeater"
     weight: 2
-description: Describing the fill-in digipeater and igate I run when travelling. 
+description: Describing the fill-in digipeater and igate I run when travelling.
 type: page
 keywords:
- - aprs
- - digipeater
- - direwolf
- - linux
- - raspberry-pi
+  - aprs
+  - digipeater
+  - direwolf
+  - linux
+  - raspberry-pi
 comment: false
 weight: 0
 tags:
@@ -34,7 +34,7 @@ hiddenFromHomePage: true
 hiddenFromSearch: false
 hiddenFromRss: false
 hiddenFromRelated: false
-summary: Describing the fill-in digipeater and igate I run when travelling. 
+summary: Describing the fill-in digipeater and igate I run when travelling.
 resources:
   - name: featured-image
     src: featured-image.jpg
@@ -48,5 +48,7 @@ repost:
 ---
 
 This page will eventually contain information on the mobile digipeater and igate I run when travelling.
+
 <!--more-->
+
 It will have info on how I run a raspberry pi battery powered, use my android phone hotspot for internet, and how I use my FT5D for mobile APRS.
