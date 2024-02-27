@@ -22,8 +22,7 @@ toc: true
 math: false
 lightgallery: false
 repost:
-  enable: false:
-
+  enable: false
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
