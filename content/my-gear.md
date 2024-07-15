@@ -40,34 +40,22 @@ repost:
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
 
-# Handhelds
+# HF
 
-Handheld Radios I own
+My home HF Setup is an ICOM 756 PRO paired with a MFJ 993 Tuner.
 
-## Baofeng UV-5R
+My antenna is an EFHW (Par End-Fedz EF-ALLBANDKW) for 80-10m. Its mounted at the top of a 20ft mast, with the antenna wire about 25ft up in a tree across the yard.
 
-## Quansheng UV-K5
+I also have an ICOM 706 MKII that I use for POTA or away from home operation. I pair it with a G5RV Dipole for 40-10m and a 20ft collapsible flagpole.
 
-## Yaesu FT5D
+## Digital Operation
 
-<hr>
+I mostly operate digital modes, usually FT8. My 756PRO works with hamlib for CAT control, using a USB to CIV adapter cable. For audio, I use a Digirig and cables.
 
-# Mobile
+# VHF
 
-Mobile Radios I own
+Most of my VHF operation is handheld. I use my Yaesu FT5D as my primary APRS and digital radio transciever. I use a MMDVM hotspot to operate YSF - usually on US KC Wide or TOADS.
 
-## Yaesu FTM-6000
+## APRS
 
-<hr>
-
-# Misc
-
-Misc gear I own
-
-## Digirig Mobile
-
-## Samlex SEC-1235M
-
-## RTLSDR Blog V4
-
-### Nooelec Lana LNA
+My APRS digipeater is a Kenwood TK760H connected to a Digirig with a custom adapter. It's antenna is a Comet GP-1 mounted to the top of my mast.
