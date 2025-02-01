@@ -4,7 +4,7 @@ subtitle: A mesh tastic repeater based on the concept of transcontinental AT&T L
 date: 2024-04-03T18:07:14-05:00
 slug: e9dde74
 draft: false
-comment: false
+comment: true
 weight: 0
 tags:
   - meshtastic

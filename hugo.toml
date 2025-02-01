@@ -60,12 +60,56 @@ theme = "FixIt"
 
   [params.social]
     GitHub = "andrewthetechie"
-    [params.social.Mastodon]
-        id = "@andrewthetechie"
-        prefix = "https://hachyderm.io/"
-        title = "Fediverse"
     Email = "contact@kg5jnc.com"
     RSS = true
+
+  [params.page]
+    authorAvatar = false
+    license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>'
+    linkToMarkdown = false
+    linkToSource = false
+    linkToEdit = false
+    linkToReport = false
+    readingTime = false
+    wordCount = false
+
+    [params.page.share]
+      enable = true
+      Twitter = false
+      Facebook = true
+      Linkedin = false
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = true
+      Reddit = true
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = true
+      Flipboard = false
+      Weibo = true
+      Myspace = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = true
+      Mix = false
+
+    [params.page.comment]
+      enable = true
+      [params.page.comment.utterances]
+        enable = true
+        # owner/repo
+        repo = "andrewthetechie/kg5jnc.com"
+        issueTerm = "pathname"
+        label = ""
+        lightTheme = "github-light"
+        darkTheme = "github-dark"
 
 [menu]
   [[menu.main]]
@@ -140,6 +184,9 @@ theme = "FixIt"
   [markup.tableOfContents]
     startLevel = 2
     endLevel = 6
+
+
+
 
 # Sitemap config
 [sitemap]
