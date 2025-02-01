@@ -6,7 +6,7 @@ date: 2024-02-27T16:00:45-06:00
 slug: 15b06c1
 draft: false
 keywords:
-comment: false
+comment: true
 weight: 0
 tags:
   - digital

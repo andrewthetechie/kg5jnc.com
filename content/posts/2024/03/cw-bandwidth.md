@@ -5,7 +5,7 @@ date: 2024-03-30T13:12:44-05:00
 slug: ea47e4f
 draft: false
 keywords:
-comment: false
+comment: true
 weight: 0
 tags:
   - cw

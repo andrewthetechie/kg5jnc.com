@@ -3,7 +3,7 @@ title: FreeDV on VHF
 subtitle: Digital voice on low cost VHF radios
 date: 2024-01-15T10:49:34-06:00
 slug: f3287ea
-comment: false
+comment: true
 weight: 0
 tags:
   - digital

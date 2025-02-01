@@ -12,7 +12,7 @@ description: Using a portable satellite dish to do some radio astronomy.
 date: 2024-01-11T22:57:37-06:00
 slug: 6e93b63
 keywords:
-comment: false
+comment: true
 weight: 0
 tags:
   - sdr

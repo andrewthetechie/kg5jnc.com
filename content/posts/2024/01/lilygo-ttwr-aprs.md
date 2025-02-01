@@ -8,7 +8,7 @@ keywords:
   - aprs
   - esp32
 license:
-comment: false
+comment: true
 weight: 0
 tags:
   - aprs

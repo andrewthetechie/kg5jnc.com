@@ -3,7 +3,7 @@ title: Meshtastic Hidden Node
 subtitle: Setup a stealthy  meshtastic node in a solar light case.
 date: 2024-01-22T12:45:32-06:00
 slug: d520330
-comment: false
+comment: true
 weight: 0
 tags:
   - meshtastic

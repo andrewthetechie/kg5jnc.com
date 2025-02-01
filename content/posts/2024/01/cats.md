@@ -11,7 +11,7 @@ keywords:
   - aprs
   - uhf
 license:
-comment: false
+comment: true
 weight: 0
 tags:
   - packet

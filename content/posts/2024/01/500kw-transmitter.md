@@ -3,7 +3,7 @@ title: 500kW Transmitter
 subtitle: The story behind WLW.
 date: 2024-01-17T12:28:37-06:00
 slug: f6ea2dc
-comment: false
+comment: true
 weight: 0
 tags:
   - commercial

@@ -1,7 +1,11 @@
 baseURL = 'https://kg5jnc.com/'
 languageCode = 'en-us'
 title = 'KG5JNC - Ham Radio'
-theme = "FixIt"
+# theme = "FixIt"
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-fixit/FixIt"
 
 [params]
   # FixIt 0.2.15 | CHANGED FixIt theme version
@@ -238,7 +242,7 @@ theme = "FixIt"
 # taxonomy: ["HTML", "RSS"]
 # term: ["HTML", "RSS"]
 [outputs]
-  home = ["HTML", "RSS", "JSON", "archives", "offline"]
+  home = ["HTML", "RSS", "JSON", "archives"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML"]

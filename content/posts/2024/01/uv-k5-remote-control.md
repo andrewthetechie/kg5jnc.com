@@ -3,7 +3,7 @@ title: UV-K5 Remote Control
 subtitle: Remote control a Quansheng UV-K5 via the programming cable
 date: 2024-01-14T10:10:25-06:00
 slug: f3adff1
-comment: false
+comment: true
 weight: 0
 tags:
   - ht
